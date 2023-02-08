@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Ready2Eat",
+    "slug": "Ready2Eat",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "Ready2Eat"
+}
