@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Pacifico-Regular.ttf",
+      "sha1": "baca1fca7fe74b61cb33aa0da48ec1a3a77bcf49"
+    },
+    {
+      "path": "src/assets/fonts/Quicksand-Regular.ttf",
+      "sha1": "6eebfcb02f142c6e2bf58f7fcb31f10ec914a0ed"
+    }
+  ]
+}

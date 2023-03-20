@@ -4,7 +4,7 @@ import {StyleSheet, View } from 'react-native';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { Input, Button, ListItem, Text } from 'react-native-elements';
-
+import { MainLogo } from '../utils/tools';
 import { MyContext } from '../context';
 
 const StageOne = () => {
@@ -45,15 +45,13 @@ const StageOne = () => {
 
           onSubmit={(values, { resetForm }) =>{
             context.addRestaurant(values.restaurant)   
-            resetForm();
+            resetForm()
           }}> 
 
           {({handleChange, handleBlur, handleSubmit, values, touched, errors}) => (
             <>
 
-            <Text>
-              Ready to Eat?
-            </Text>
+            <MainLogo/>
 
             <Input
               placeholder='Add restaurants here'

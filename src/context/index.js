@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Toast from 'react-native-toast-message';
 
 
 // Context needs Provider to wrap the whole application
@@ -33,11 +32,7 @@ class MyProvider extends Component {
         const {restaurants} = this.state;
 
         if (restaurants.length < 2) {
-            Toast.show({
-                type: 'error',
-                position: 'bottom',
-                text1: 'Sorry',
-                text2: 'Not enough restaurants to choose from'});
+            alert("Error. Not enough restaurants to choose from");
         } else {
             this.setState({
                 stage:2

@@ -3,12 +3,14 @@ import { Text, View, StyleSheet} from 'react-native';
 import { Button } from 'react-native-elements';
 
 import { MyContext } from '../context';
+import { MainLogo } from '../utils/tools';
 
 const StageTwo = () => {
   const context = useContext(MyContext);
 
     return (
         <>
+          <MainLogo/>
           <Text>The chosen restaurant is</Text>
           <Text style={{marginTop:30, fontSize:30}}>{context.state.result}</Text>
           
